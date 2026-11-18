@@ -87,6 +87,7 @@ void PollRoyalKludge(PollContext& ctx);  // Royal Kludge MG6 Pro (VID 2E3C, QiWa
 void PollMchoseG3(PollContext& ctx);  // MCHOSE G3 V2 wireless mouse (VID 3837)
 void PollMsi(PollContext& ctx);       // MSI wireless mice: VERSA 300 ELITE, CLUTCH GM31 / GM41
 void PollMchoseModern(PollContext& ctx);  // MCHOSE K7 V2 Ultra+ and other new-family mice (VID 3837 receiver)
+void PollMchoseUltraPlus(PollContext& ctx);  // EXPERIMENTAL: MCHOSE L7 Ultra+ (receiver 5253:1020), before PollMchose
 void PollMchoseHeadset(PollContext& ctx);  // MCHOSE V9 Pro 2 headset (3837:6011, M HUB "MC" protocol)
 void PollRapoo(PollContext& ctx);     // Rapoo VT gaming mice incl. VT1 Pro Max (passive battery reports)
 void PollAreson(PollContext& ctx);    // Areson 25A7 receivers (Redragon M913 / M915)
