@@ -76,6 +76,7 @@ std::vector<DeviceStatus> PollAllDevices() {
     PollRog(ctx);
     PollZowie(ctx);
     PollRoyalKludge(ctx);
+    PollMchoseUltraPlus(ctx);  // EXPERIMENTAL L7 Ultra+ probe, before the L7 driver so both protocols get a chance
     PollMchose(ctx);
     PollRapoo(ctx);
     PollAreson(ctx);
